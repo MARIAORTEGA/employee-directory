@@ -1,41 +1,56 @@
 import React, { useState } from "react";
 import "./style.css";
-import API from "https://randomuser.me/api/"
-;
-function App() {
-  const [developerState, setDeveloperState] = useState({
-    picture: "",
-    username: "",
-    gender: "",
-  });
+//import API from "https://randomuser.me/api/";
+import axios from "axios";
 
-  loadUsers = () => {
-    API.getRandom()
-    .then(res =>
-      this.setState({
-        picture: picture
+function App() {
+  const [employees, setEmployees] = useState([]);
+
+  const getUsers = async () => {
+    let url = "https://randomuser.me/api/";
+
+    const response = await axios.get(url);
+    console.log("response", response);
+    setEmployees(response.data);
+  };
+
+  useEffect(() => {
+    getUsers();
+  }, []);
+
+  const loadHeader = () => {
+      let headerEqual = ['picture', 'username', 'gender']
+      
+      return headerEqual.map((key, index) => {
+          return <th key={index}>{key.toUpperCase()}</th>
       })
-    )
-    .catch(err => console.log(err));
-};
   }
 
-return (
-        <div className="card">
-          <div>
-            picture: {developerState.image}
-          </div>
-          <div>
-            Username: {developerState.username}
-          </div>
-          <div>
-            gender: {developerState.gender}
-          </div>
-          <div className="card">
-        <card picture={() => setDeveloperState({ ...developerState })} />
-        </div>
-        </div>
-      );
+const renderUser = () => {
+    return employees && employees.map(({ picture, username, gender}) => {
+        return (
+            <tr key={id}>
+            <td>{id}</td>
+            <td>{picture}</td>
+            <td>{username}</td>
+            <td>{gender}</td>
+            </tr>
+        )
+    })
 }
+return (
+    <div>
+        <h1 id='title'>Employee Directory</h1>
+        <table id= 'employee'>
+            <head>
+                <tr>{loadHeader()}</tr>
+                </head>
+            <body>
+                {renderUser()}
+            </body>
+        </table>
+    </div>
+)
+
 
 export default App;
