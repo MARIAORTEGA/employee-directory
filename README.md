@@ -15,7 +15,7 @@ The user is able to filter users by one property.
 
 \*Technologies Used:
 
-React, js, css,
+React, js, css, axios,
 
 \*Screenshots:
 

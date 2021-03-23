@@ -1,0 +1,10 @@
+.tab {
+  border-color: black;
+}
+
+.table > .row {
+  height: 60%;
+  overflow: hidden;
+  text-align: center;
+  background: #6caddc;
+}

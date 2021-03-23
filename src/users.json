@@ -1,0 +1,86 @@
+[
+    {
+      "id": 1,
+      "name": "April Moore",
+      "image": "https://randomuser.me/api/portraits/women/30.jpg",
+      "occupation": "Supervisor",
+      "location": "South Carolina"
+    },
+    {
+      "id": 2,
+      "name": "Bob Miller",
+      "image": "https://randomuser.me/api/portraits/men/92.jpg",
+      "occupation": "Technician",
+      "location": "South Carolina"
+    },
+    {
+      "id": 3,
+      "name": "Daniel King",
+      "image": "https://randomuser.me/api/portraits/men/88.jpg",
+      "occupation": "Assistant",
+      "location": "North Carolina"
+    },
+    {
+      "id": 4,
+      "name": "Kathy Woods",
+      "image": "https://randomuser.me/api/portraits/women/81.jpg",
+      "occupation": "Director",
+      "location": "New York"
+    },
+    {
+      "id": 5,
+      "name": "Jenni Kim",
+      "image": "https://randomuser.me/api/portraits/women/17.jpg",
+      "occupation": "Programmer",
+      "location": "Georgia"
+    },
+    {
+      "id": 6,
+      "name": "Doug Martinez",
+      "image": "https://randomuser.me/api/portraits/men/59.jpg",
+      "occupation": "Intern",
+      "location": "North Carolina"
+    },
+    {
+      "id": 7,
+      "name": "Sebastian Holt",
+      "image": "https://randomuser.me/api/portraits/men/32.jpg",
+      "occupation": "Director Assistant",
+      "location": "Kansas"
+    },
+    {
+      "id": 8,
+      "name": "Megan Smith",
+      "image": "https://randomuser.me/api/portraits/women/77.jpg",
+      "occupation": "Student",
+      "location": "North Carolina"
+    },
+    {
+      "id": 9,
+      "name": "Sandy McComber",
+      "image": "https://randomuser.me/api/portraits/women/64.jpg",
+      "occupation": "Digital Designer",
+      "location": "California"
+    },
+    {
+      "id": 10,
+      "name": "Howard Jones",
+      "image": "https://randomuser.me/api/portraits/men/57.jpg",
+      "occupation": "Director",
+      "location": "Georgia"
+    },
+    {
+      "id": 11,
+      "name": "Zoe Jones",
+      "image": "https://randomuser.me/api/portraits/women/68.jpg",
+      "occupation": "Web Designer",
+      "location": "North Carolina"
+    },
+    {
+      "id": 12,
+      "name": "John Smith",
+      "image": "https://randomuser.me/api/portraits/men/72.jpg",
+      "occupation": "Tech Assistant",
+      "location": "North Carolina"
+    }
+  ]
