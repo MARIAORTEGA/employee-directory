@@ -20,7 +20,8 @@ React, js, css, axios,
 \*Screenshots:
 https://github.com/MARIAORTEGA/employee-directory/blob/main/Screen%20Shot%202021-03-22%20at%209.00.49%20PM.png
 
-Url to deployed app:
+\*Url to deployed app:
+https://infinite-chamber-56350.herokuapp.com/
 
-Url to github repo:
+\*Url to github repo:
 https://mariaortega.github.io/employee-directory/
