@@ -18,6 +18,7 @@ The user is able to filter users by one property.
 React, js, css, axios,
 
 \*Screenshots:
+file:///Users/Maria/Desktop/Screen%20Shot%202021-03-22%20at%209.00.49%20PM.png
 
 Url to deployed app:
 
