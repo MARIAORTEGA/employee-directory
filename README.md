@@ -23,3 +23,4 @@ https://github.com/MARIAORTEGA/employee-directory/blob/main/Screen%20Shot%202021
 Url to deployed app:
 
 Url to github repo:
+https://mariaortega.github.io/employee-directory/
