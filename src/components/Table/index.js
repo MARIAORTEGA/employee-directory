@@ -32,7 +32,7 @@ function Table(props) {
         </tr>
         <tr className="rowE">
           <span onClick={() => props.removeFriend(props.id)} className="remove">
-            𝘅
+            ✅
           </span>
         </tr>
       </tbody>

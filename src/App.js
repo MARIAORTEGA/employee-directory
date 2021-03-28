@@ -24,9 +24,10 @@ class App extends Component {
   //     .catch((err) => console.log(err));
   // }
 
-  // handleInputChange = (event) => {
-  //   this.setState({ search: event.target.value });
-  // };
+  handleInputChange = (event) => {
+    this.setState({ search: event.target.value });
+    console.log(event);
+  };
 
   // handleFormSubmit = (event) => {
   //   event.preventDefault();
@@ -76,17 +77,21 @@ class App extends Component {
             location={user.location}
           />
         ))} */}
-        {this.state.users.map((user) => (
-          <Table
-            removeFriend={this.removeFriend}
-            id={user.id}
-            key={user.id}
-            name={user.name}
-            image={user.image}
-            occupation={user.occupation}
-            location={user.location}
-          />
-        ))}
+        {this.state.users
+          .filter((user) => {
+            return user.name.includes(this.state.search);
+          })
+          .map((user) => (
+            <Table
+              removeFriend={this.removeFriend}
+              id={user.id}
+              key={user.id}
+              name={user.name}
+              image={user.image}
+              occupation={user.occupation}
+              location={user.location}
+            />
+          ))}
       </Wrapper>
     );
   }
