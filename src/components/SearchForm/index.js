@@ -6,7 +6,7 @@ function SearchForm(props) {
     <form className="search">
       <div className="form-group">
         <label htmlFor="header-search">
-          <span className="visually-hidden">Search Employees by ID:</span>
+          <span className="visually-hidden">Search Employees by Name:</span>
         </label>
         <input
           value={props.search}
@@ -15,7 +15,7 @@ function SearchForm(props) {
           list="ids"
           type="text"
           id="header-search"
-          placeholder="id number"
+          placeholder="employee name"
         />
         {/* <datalist id="breeds">
           {props.breeds.map((breed) => (
@@ -29,6 +29,10 @@ function SearchForm(props) {
         >
           Search
         </button>
+        <h4 className="remove-employee">
+          {" "}
+          Please click on the ✅ to remove employee
+        </h4>
       </div>
     </form>
   );
