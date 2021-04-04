@@ -22,7 +22,8 @@ The user is able to filter users by one property.
 
 ## Screenshots:
 
-https://github.com/MARIAORTEGA/employee-directory/blob/main/Screen%20Shot%202021-03-22%20at%209.00.49%20PM.png
+![Screen Shot 2021-04-04 at 1 19 57 PM](https://user-images.githubusercontent.com/71056915/113516945-1b6ac500-954b-11eb-9038-7fd893968ea2.png)
+
 
 ## Url to deployed app:
 
